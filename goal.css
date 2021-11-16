@@ -40,50 +40,7 @@ body {
   background: #aed581;
   color: #fff;
 }
-/* three box  */
-.boxs3 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex: column;
-  max-width: 700px;
-  margin: 2rem auto 2rem auto;
-}
-.boxs3 .box {
-  width: 150px;
-  height: 110px;
-  background: #009688;
-  text-align: center;
-  margin: 1.5rem 0;
-  padding-top: 15px;
-  align-content: space-between;
-  transition: 1s;
-  box-shadow: 8px 8px 2px 1px #b0bec5;
-}
-.boxs3 .box:hover {
-  transform: scale(1.09) rotate(8deg);
-}
-.box + .fas {
-  font-size: 1rem;
-  color: #c5e1a5;
-}
-.box a,
-.goal-box a {
-  margin-top: 15px;
-  padding: 2.5px;
-  color: #b3e5fc;
-  font-size: 10px;
-  transition: 0.5s;
-}
-.box a:hover,
-.goal-box a:hover {
-  background: #439855;
-  border-radius: 10px;
-}
-.box h5 {
-  padding: 8px 0;
-  color: #c5e1a5;
-}
+/* footer  */
 footer {
   width: 100%;
   height: 1.5rem;
@@ -91,6 +48,13 @@ footer {
   background: #eceff1;
 }
 /* goal box  */
+.goal-box a {
+  margin-top: 15px;
+  padding: 2.5px;
+  color: #b3e5fc;
+  font-size: 10px;
+  transition: 0.5s;
+}
 .Goal {
   margin-top: 3.5rem;
   margin-bottom: 3rem;
@@ -110,6 +74,10 @@ footer {
   transition: 1s;
   box-shadow: 4px 4px 2px 1px #b0bec5;
   background: #9fa8da;
+}
+.goal-box a:hover {
+  background: #439855;
+  border-radius: 10px;
 }
 .goal-box:hover {
   transform: scale(1.5);
@@ -131,4 +99,10 @@ footer {
   height: 1.5rem;
   border-top: 1px solid #cfd8dc;
   background: #eceff1;
+}
+.goal-box:nth-of-type(even) {
+  color: #fff;
+}
+.goal-box:nth-of-type(odd) {
+  color: #cfd8dc;
 }
