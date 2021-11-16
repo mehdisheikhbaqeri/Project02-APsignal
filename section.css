@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+* a {
+  text-decoration: none;
+}
+* a:visited,
+a:active {
+  color: transparent;
+}
+body {
+  background: #ede7f6;
+}
+/* navbar */
+.nav {
+  background: #f1f8e9;
+  width: 100%;
+  height: 30px;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid #aed581;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.nav-top li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 50px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-family: "Genos", sans-serif;
+  font-weight: 700;
+  text-shadow: #fc0 1px 0 10px;
+}
+.nav-top li:hover {
+  border: 1px solid #439855;
+  border-radius: 50%;
+  background: #aed581;
+  color: #fff;
+}
+/* section box  */
+.section {
+  max-width: 700px;
+  height: 200px;
+  margin: 4rem auto 0 auto;
+  background: #ffccbc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section section {
+  width: 110px;
+  height: 150px;
+  background: #fff9c4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+section .fas {
+  font-size: 2rem;
+  color: #90a4ae;
+}
+section h4 {
+  font-size: 10px;
+}
+/* table  */
+.content-table {
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-size: 1em;
+  min-width: 500px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.15 green, blue);
+  margin: 2rem auto 2rem auto;
+  font-size: 0.7rem;
+}
+
+.content-table thead tr {
+  background: #6a1b9a;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+.content-table th,
+td {
+  padding: 12px 15px;
+}
+.content-table tbody tr {
+  border-bottom: 1.5px splid #ddfddd;
+}
+.content-table tbody tr:nth-child(odd) {
+  background: #d7ccc8;
+  color: #f4511e;
+}
+.content-table tbody tr:nth-child(even) {
+  background: #ffccbc;
+  color: #5d4037;
+}
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #5c6bc0;
+}
+/* footer  */
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 1.5rem;
+  border-top: 1px solid #cfd8dc;
+  background: #eceff1;
+}
