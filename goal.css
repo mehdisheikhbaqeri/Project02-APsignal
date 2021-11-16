@@ -84,9 +84,14 @@ footer {
 }
 /* goal text   */
 .goal-text {
-  border: 1px solid #000;
-  border-radius: 5px;
+  border: 3px dotted #000;
+  border-bottom-left-radius: 22%;
+  border-bottom-right-radius: 34%;
+  border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
   margin: 0 6rem;
+  padding-bottom: 23px;
+  background: #d1c4e9;
 }
 .goal-text p,
 h2 {
@@ -105,4 +110,22 @@ footer {
 }
 .goal-box:nth-of-type(odd) {
   color: #cfd8dc;
+}
+/* footer  */
+footer {
+  width: 100%;
+  height: 1.5rem;
+  border-top: 1px solid #cfd8dc;
+  background: #eceff1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section > address::selection {
+  background: none;
+}
+footer section {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
 }
