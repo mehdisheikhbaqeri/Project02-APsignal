@@ -54,6 +54,9 @@ body {
   align-items: center;
   margin-bottom: 1.2rem;
 }
+.sec:hover {
+  transform: scale(0.8);
+}
 .rulers .sec {
   width: 110px;
   height: 130px;
@@ -63,6 +66,8 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 3rem;
+  box-shadow: 4px 4px 2px 2px #b4b4b4;
+  font-family: "Genos", sans-serif;
 }
 .sec > a {
   margin-top: 15px;
@@ -97,6 +102,7 @@ body {
   border: 5px inset #c4c4c4;
   border-radius: 10px;
   color: #fff;
+  font-family: "Nunito", sans-serif;
 }
 .h6-text {
   display: flex;
@@ -110,14 +116,6 @@ body {
   font-size: 14px;
   border-left: 5px double #bbdefb;
 }
-/* footer  */
-footer {
-  margin-top: 100px;
-  width: 100%;
-  height: 1.5rem;
-  border-top: 1px solid #cfd8dc;
-  background: #eceff1;
-}
 /* list bold */
 .li-1,
 .li-2 {
@@ -130,4 +128,36 @@ footer {
 .li-5,
 .li-6 {
   font-weight: 500;
+}
+/* footer  */
+footer {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 1.5rem;
+  border-top: 1px solid #cfd8dc;
+  background: #eceff1;
+}
+.goal-box:nth-of-type(even) {
+  color: #fff;
+}
+.goal-box:nth-of-type(odd) {
+  color: #cfd8dc;
+}
+/* footer  */
+footer {
+  width: 100%;
+  height: 1.5rem;
+  border-top: 1px solid #cfd8dc;
+  background: #eceff1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section > address::selection {
+  background: none;
+}
+footer section {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
 }
