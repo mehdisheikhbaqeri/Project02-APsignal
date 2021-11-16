@@ -9,6 +9,9 @@
 a:active {
   color: transparent;
 }
+body {
+  background: #ede7f6;
+}
 /* navbar */
 .nav {
   background: #f1f8e9;
@@ -91,7 +94,7 @@ a:active {
 .boxs3 .box:hover {
   transform: scale(1.09) rotate(8deg);
 }
-.box .fas {
+.box + .fas {
   font-size: 1rem;
   color: #c5e1a5;
 }
